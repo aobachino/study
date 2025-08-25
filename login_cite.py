@@ -5,9 +5,9 @@ import time
 import requests
 
 # Replace these with the appropriate values
-website_url = "https://elearning.utm.my/24251/login/index.php"  # The URL of the website
-username = "chino"
-password = "p*qpg3H#j*vCSKW"
+website_url = ""  # The URL of the website
+username = ""
+password = ""
 username_field_id = "username"  # Replace with the 'id' or 'name' attribute of the username field
 password_field_id = "password"  # Replace with the 'id' or 'name' attribute of the password field
 login_button_id = "loginbtn"  # Replace with the 'id' or 'name' attribute of the login button
@@ -51,3 +51,4 @@ try:
 finally:
     # Close the browser
     driver.quit()
+
